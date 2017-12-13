@@ -28,7 +28,7 @@ function removeLastKitten() {
   //var spliced = [...kittens];
   //spliced.splice(kittens.length - 1, 1);
   //return spliced;
-  return [...kittens].slice(-1);
+  return [...kittens].slice(0, kittens.length - 1);
 }
 
 function removeFirstKitten() {
