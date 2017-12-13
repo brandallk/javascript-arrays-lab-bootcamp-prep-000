@@ -30,3 +30,9 @@ function removeLastKitten() {
   return spliced;
 }
 
+function removeFirstKitten() {
+  var sliced = [...kittens];
+  sliced.slice(1);
+  return sliced;
+}
+
